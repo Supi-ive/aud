@@ -1,0 +1,397 @@
+body {
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMTgtYmVlci0wNC5qcGc.jpg");
+    background-size: cover;
+  }
+
+  .welcome{
+      font-family: "Times New Roman", Times, serif;
+      color:aliceblue;
+      font-size: 250%;
+      text-align: center;
+      margin-top: -100px;
+  }
+
+.container{
+    display:flex;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.form{
+    position: absolute;
+    max-width: 430px;
+    width: 200%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+    align-items: center;
+}
+
+.or{
+    color:#0e2704;
+    font-size: 100%;
+    align-self: center;
+    justify-content: center;
+    margin-left: 47%;
+}
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 3px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.field button{
+    color: #fff;
+    background-color: #0e2704;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: #0d3607;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #085305;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.info{
+    font-family: "Times New Roman", Times, serif;
+      color:aliceblue;
+      font-size: 150%;
+      text-align: center;
+      margin-top: 150px;
+}
+.home span{
+    color:rgb(233, 230, 195);
+    text-align:center;
+    align-items: center;
+    margin-left:600px;
+    font-size: 130%;
+    margin-top: 180px;
+}
+.home a{
+    text-decoration: none;
+    color:rgb(240, 228, 95);
+    text-align:center;
+    font-size: 130%;
+    margin-top: 150px;  
+}
+.options_top{
+    display: flex;
+    justify-content: center;
+    margin-top:150px;
+    text-align: center;
+}
+
+.options_down{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    margin-top:200px;
+}
+
+.audit{
+    text-decoration: none;
+    background-color: rgb(240, 204, 3);
+    border: 2px solid rgb(28, 121, 0);
+    border-radius: 15px;
+    box-sizing: 50px;
+    color:#000000;
+    cursor:pointer;
+    display:inline-block;
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    line-height: normal;
+    margin-inline: auto;
+    padding:20px 20px;
+    text-align: center;
+    touch-action: manipulation;
+    width:30%;
+    will-change:transform;
+
+}
+.audit:hover{
+    box-shadow: rgb(170, 145, 6) 0 8px 15px;
+    color:#FFF;
+    text-decoration: none;
+    background-color: rgb(28, 121, 0);
+    transform: translateY(-6px);
+}
+.intro{
+    align-content: center;
+    justify-content: center;
+}
+.image{
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 50px;
+    float:left;
+    display:inline;
+}
+.ipara{
+    margin-left: 50px;
+    margin-right:50px;
+    padding-bottom: 50px;
+    color:#FFF;
+    font-size:larger;
+    display: inline;
+    float:right;
+}
+h2{
+    margin-left: 50px;
+    margin-right:50px;
+    color:rgb(247, 212, 19);  
+}
+h3{
+    margin-left: 50px;
+    margin-right:50px;
+    color:rgb(247, 212, 19);
+}
+.para{
+    margin-left: 50px;
+    margin-right:50px;
+    color:#FFF;
+    font-size: larger;
+}
+
+.homes{
+    float:right;
+    text-decoration: none;
+    background-color:rgb(255, 221, 48);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:14px;
+    text-align:right;
+    margin-right: 20px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-right:10px; 
+    will-change:transform;
+    touch-action: manipulation;
+
+}
+
+.homes:hover{
+    text-decoration: none;
+    color:#000000;
+    background-color: rgb(253, 233, 115);
+    transform: translateY(-6px);
+}
+
+
+.instructions{
+    color:white;
+    font-size:medium;
+    margin-left:20px;
+}
+.sub{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+.submit{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+.submit:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.rep{
+    border-collapse: collapse;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width:auto;
+}
+.report{
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    width:70%;
+}
+
+.print{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(216, 184, 0);
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+.print:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.text{
+    font-size: larger;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    margin-top:auto;
+}
+.up{
+    border-radius: 5px;
+    box-shadow: #000000;
+    width:800px;
+    height:auto;
+    padding:10px;
+    margin-top:80px;
+    margin-bottom: 50px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3KoUHkTrdF_STULH6yMENsz06OTMuOIyQg&usqp=CAU");
+    background-size: contain;
+}
+
+.ups{
+    border-radius: 5px;
+    box-shadow: #000000;
+    width:fit-content;
+    height:auto;
+    padding:10px;
+    margin-top:80px;
+    margin-bottom: 50px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3KoUHkTrdF_STULH6yMENsz06OTMuOIyQg&usqp=CAU");
+    background-size: contain;
+}
+.subbs{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    cursor:pointer;
+    margin-top:20px;
+    
+}
+.subbs:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.memories{
+    font-size: large;
+}
+
+.mon{
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;
+    color:white;
+    background-color: #0f3600 ;
+    transition-duration: 0.4s;
+    margin-left:100px;
+    margin-right: 150px;
+}
+.mon:hover{
+    background-color: #085305;
+}
+
+.three{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(3, 37, 17);
+    transition-duration: 0.4s;
+    cursor:pointer;
+    margin-top:20px;
+    margin-left:20px;
+    
+}
+.three:hover{
+    background-color: rgb(29, 100, 38);
+    color: rgb(255, 255, 255);
+}
+
+.square{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 20px;
+    border-radius:5px;
+    background-color:#b96622;
+    color:#000000;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.square:hover{
+    background-color: #3f1c00;
+    color:#FFF;
+}

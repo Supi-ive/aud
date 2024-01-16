@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>AUDIT REPORT-REVIEW PAGE</title>
+     <link rel="stylesheet" href="D:\Internship\Internship_projects\Titan_audit_website\resources\CSS\index.css">   
+    </head>
+<body>
+    <div class="top">
+        <div class="pic">
+            <img src= "data:image/png;base64,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" width="100" height="100">
+        </div>
+        <div class="welcome">
+            <p><b>REVIEW PAGE</b></p>
+        </div>
+    </div>
+    <div><button class="homes"><a href=home.html style="color:#000000; text-decoration: none;"><b> &#8592; BACK HOME</b></a></button>
+    <br>
+    <br>
+    <br>
+    <div class="content">
+    <table class="report" id="submitTable" border="1" solid black>
+        <thead>
+            <tr>
+                <th>Sl.no.</th>
+                <th>Marks</th>
+                <th>Remarks</th>
+                <th>Action taken on</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p>1</p></td>
+                <td><p id="d1"></p></td>
+                <td><p id="d2"></p></td>
+                <td><p id="d3"></p></td>
+            </tr>
+            <tr>
+                <td><p>2</p></td>
+                <td><p id="d4"></p></td>
+                <td><p id="d5"></p></td>
+                <td><p id="d6"></p></td>
+            </tr>
+            <tr>
+                <td><p>3</p></td>
+                <td><p id="d7"></p></td>
+                <td><p id="d8"></p></td>
+                <td><p id="d9"></p></td>
+            </tr>
+            <tr>
+                <td><p>4</p></td>
+                <td><p id="d10"></p></td>
+                <td><p id="d11"></p></td>
+                <td><p id="d12"></p></td>
+            </tr>
+            <tr>
+                <td><p>5</p></td>
+                <td><p id="d13"></p></td>
+                <td><p id="d14"></p></td>
+                <td><p id="d15"></p></td>
+            </tr>
+            <tr>
+                <td><p>6</p></td>
+                <td><p id="d16"></p></td>
+                <td><p id="d17"></p></td>
+                <td><p id="d18"></p></td>
+            </tr>
+            <tr>
+                <td><p>7</p></td>
+                <td><p id="d19"></p></td>
+                <td><p id="d20"></p></td>
+                <td><p id="d21"></p></td>
+            </tr>
+            <tr>
+                <td><p>8</p></td>
+                <td><p id="d22"></p></td>
+                <td><p id="d23"></p></td>
+                <td><p id="d24"></p></td>
+            </tr>
+            <tr>
+                <td><p>9</p></td>
+                <td><p id="d25"></p></td>
+                <td><p id="d26"></p></td>
+                <td><p id="d27"></p></td>
+            </tr>
+            <tr>
+                <td><p>10</p></td>
+                <td><p id="d28"></p></td>
+                <td><p id="d29"></p></td>
+                <td><p id="d30"></p></td>
+            </tr>
+            <tr>
+                <td><p>11</p></td>
+                <td><p id="d31"></p></td>
+                <td><p id="d32"></p></td>
+                <td><p id="d33"></p></td>
+            </tr>
+            <tr>
+                <td><p>12</p></td>
+                <td><p id="d34"></p></td>
+                <td><p id="d35"></p></td>
+                <td><p id="d36"></p></td>
+            </tr>
+            <tr>
+                <td><p>13</p></td>
+                <td><p id="d37"></p></td>
+                <td><p id="d38"></p></td>
+                <td><p id="d39"></p></td>
+            </tr>
+            <tr>
+                <td><p>14</p></td>
+                <td><p id="d40"></p></td>
+                <td><p id="d41"></p></td>
+                <td><p id="d42"></p></td>
+            </tr>
+            <tr>
+                <td><p>15</p></td>
+                <td><p id="d43"></p></td>
+                <td><p id="d44"></p></td>
+                <td><p id="d45"></p></td>
+            </tr>
+            <tr>
+                <td><p>16</p></td>
+                <td><p id="d46"></p></td>
+                <td><p id="d47"></p></td>
+                <td><p id="d48"></p></td>
+            </tr>
+            <tr>
+                <td><p>17</p></td>
+                <td><p id="d49"></p></td>
+                <td><p id="d50"></p></td>
+                <td><p id="d51"></p></td>
+            </tr>
+            <tr>
+                <td><p>18</p></td>
+                <td><p id="d52"></p></td>
+                <td><p id="d53"></p></td>
+                <td><p id="d54"></p></td>
+            </tr>
+            <tr>
+                <td><p>19</p></td>
+                <td><p id="d55"></p></td>
+                <td><p id="d56"></p></td>
+                <td><p id="d57"></p></td>
+            </tr>
+            <tr>
+                <td><p>20</p></td>
+                <td><p id="d58"></p></td>
+                <td><p id="d59"></p></td>
+                <td><p id="d60"></p></td>
+            </tr>
+            <tr>
+                <td><p>21</p></td>
+                <td><p id="d61"></p></td>
+                <td><p id="d62"></p></td>
+                <td><p id="d63"></p></td>
+            </tr>
+            <tr>
+                <td><p>22</p></td>
+                <td><p id="d64"></p></td>
+                <td><p id="d65"></p></td>
+                <td><p id="d66"></p></td>
+            </tr>
+            <tr>
+                <td><p>23</p></td>
+                <td><p id="d67"></p></td>
+                <td><p id="d68"></p></td>
+                <td><p id="d69"></p></td>
+            </tr>
+            <tr>
+                <td><p>24</p></td>
+                <td><p id="d70"></p></td>
+                <td><p id="d71"></p></td>
+                <td><p id="d72"></p></td>
+            </tr>
+            <tr>
+                <td><p>25</p></td>
+                <td><p id="d73"></p></td>
+                <td><p id="d74"></p></td>
+                <td><p id="d75"></p></td>
+            </tr>
+            <tr>
+                <td><p>26</p></td>
+                <td><p id="d76"></p></td>
+                <td><p id="d77"></p></td>
+                <td><p id="d78"></p></td>
+            </tr>
+            <tr>
+                <td><p>27</p></td>
+                <td><p id="d79"></p></td>
+                <td><p id="d80"></p></td>
+                <td><p id="d81"></p></td>
+            </tr>
+            <tr>
+                <td><p>28</p></td>
+                <td><p id="d82"></p></td>
+                <td><p id="d83"></p></td>
+                <td><p id="d84"></p></td>
+            </tr>
+            <tr>
+                <td><p>29</p></td>
+                <td><p id="d85"></p></td>
+                <td><p id="d86"></p></td>
+                <td><p id="d87"></p></td>
+            </tr>
+            <tr>
+                <td><p>30</p></td>
+                <td><p id="d88"></p></td>
+                <td><p id="d89"></p></td>
+                <td><p id="d90"></p></td>
+            </tr>
+            <tr>
+                <td><p>31</p></td>
+                <td><p id="d91"></p></td>
+                <td><p id="d92"></p></td>
+                <td><p id="d93"></p></td>
+            </tr>
+            <tr>
+                <td><p>32</p></td>
+                <td><p id="d94"></p></td>
+                <td><p id="d95"></p></td>
+                <td><p id="d96"></p></td>
+            </tr>
+            <tr>
+                <td><p>33</p></td>
+                <td><p id="d97"></p></td>
+                <td><p id="d98"></p></td>
+                <td><p id="d99"></p></td>
+            </tr>
+            <tr>
+                <td><p>34</p></td>
+                <td><p id="d100"></p></td>
+                <td><p id="d101"></p></td>
+                <td><p id="d102"></p></td>
+            </tr>
+            <tr>
+                <td><p>35</p></td>
+                <td><p id="d103"></p></td>
+                <td><p id="d104"></p></td>
+                <td><p id="d105"></p></td>
+            </tr>
+            <tr>
+                <td><p>36</p></td>
+                <td><p id="d106"></p></td>
+                <td><p id="d107"></p></td>
+                <td><p id="d108"></p></td>
+            </tr>
+            <tr>
+                <td><p>37</p></td>
+                <td><p id="d109"></p></td>
+                <td><p id="d110"></p></td>
+                <td><p id="d111"></p></td>
+            </tr>
+            <tr>
+                <td><p>38</p></td>
+                <td><p id="d112"></p></td>
+                <td><p id="d113"></p></td>
+                <td><p id="d114"></p></td>
+            </tr>
+            <tr>
+                <td><p>39</p></td>
+                <td><p id="d115"></p></td>
+                <td><p id="d116"></p></td>
+                <td><p id="d117"></p></td>
+            </tr>
+            <tr>
+                <td><p>40</p></td>
+                <td><p id="d118"></p></td>
+                <td><p id="d119"></p></td>
+                <td><p id="d120"></p></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <center>
+    <button type="button" class="print" onclick="converttocsv()"><b>DOWNLOAD AS CSV-></b></button>
+</center>
+    <br>
+    <br>
+    <br>
+    <br>
+    </body>
+    <script>
+        var sd1=localStorage.getItem('marks1');
+        document.getElementById('d1').textContent=sd1;
+        var sd2=localStorage.getItem('remarks1');
+        document.getElementById('d2').textContent=sd2;
+        var sd3=localStorage.getItem('actiondate1');
+        document.getElementById('d3').textContent=sd3;
+
+        var sd4=localStorage.getItem('marks2');
+        document.getElementById('d4').textContent=sd4;
+        var sd5=localStorage.getItem('remarks2');
+        document.getElementById('d5').textContent=sd5;
+        var sd6=localStorage.getItem('actiondate2');
+        document.getElementById('d6').textContent=sd6;
+
+        var sd7=localStorage.getItem('marks3');
+        document.getElementById('d7').textContent=sd7;
+        var sd8=localStorage.getItem('remarks3');
+        document.getElementById('d8').textContent=sd8;
+        var sd9=localStorage.getItem('actiondate3');
+        document.getElementById('d9').textContent=sd9;
+
+        var sd10=localStorage.getItem('marks4');
+        document.getElementById('d10').textContent=sd10;
+        var sd11=localStorage.getItem('remarks4');
+        document.getElementById('d11').textContent=sd11;
+        var sd12=localStorage.getItem('actiondate4');
+        document.getElementById('d12').textContent=sd12;
+
+        var sd13=localStorage.getItem('marks5');
+        document.getElementById('d13').textContent=sd13;
+        var sd14=localStorage.getItem('remarks5');
+        document.getElementById('d14').textContent=sd14;
+        var sd15=localStorage.getItem('actiondate5');
+        document.getElementById('d15').textContent=sd15;
+
+        var sd16=localStorage.getItem('marks6');
+        document.getElementById('d16').textContent=sd16;
+        var sd17=localStorage.getItem('remarks6');
+        document.getElementById('d17').textContent=sd17;
+        var sd18=localStorage.getItem('actiondate6');
+        document.getElementById('d18').textContent=sd18;
+
+        var sd19=localStorage.getItem('marks7');
+        document.getElementById('d19').textContent=sd19;
+        var sd20=localStorage.getItem('remarks7');
+        document.getElementById('d20').textContent=sd20;
+        var sd21=localStorage.getItem('actiondate7');
+        document.getElementById('d21').textContent=sd21;
+
+        var sd22=localStorage.getItem('marks8');
+        document.getElementById('d22').textContent=sd22;
+        var sd23=localStorage.getItem('remarks8');
+        document.getElementById('d23').textContent=sd23;
+        var sd24=localStorage.getItem('actiondate8');
+        document.getElementById('d24').textContent=sd24;
+
+        var sd25=localStorage.getItem('marks9');
+        document.getElementById('d25').textContent=sd25;
+        var sd26=localStorage.getItem('remarks9');
+        document.getElementById('d26').textContent=sd26;
+        var sd27=localStorage.getItem('actiondate9');
+        document.getElementById('d27').textContent=sd27;
+
+        var sd28=localStorage.getItem('marks10');
+        document.getElementById('d28').textContent=sd28;
+        var sd29=localStorage.getItem('remarks10');
+        document.getElementById('d29').textContent=sd29;
+        var sd30=localStorage.getItem('actiondate10');
+        document.getElementById('d30').textContent=sd30;
+
+        var sd31=localStorage.getItem('marks11');
+        document.getElementById('d31').textContent=sd31;
+        var sd32=localStorage.getItem('remarks11');
+        document.getElementById('d32').textContent=sd32;
+        var sd33=localStorage.getItem('actiondate11');
+        document.getElementById('d33').textContent=sd33;
+
+        var sd34=localStorage.getItem('marks12');
+        document.getElementById('d34').textContent=sd34;
+        var sd35=localStorage.getItem('remarks12');
+        document.getElementById('d35').textContent=sd35;
+        var sd36=localStorage.getItem('actiondate12');
+        document.getElementById('d36').textContent=sd36;
+
+        var sd37=localStorage.getItem('marks13');
+        document.getElementById('d37').textContent=sd37;
+        var sd38=localStorage.getItem('remarks13');
+        document.getElementById('d38').textContent=sd38;
+        var sd39=localStorage.getItem('actiondate13');
+        document.getElementById('d39').textContent=sd39;
+
+        var sd40=localStorage.getItem('marks14');
+        document.getElementById('d40').textContent=sd40;
+        var sd41=localStorage.getItem('remarks14');
+        document.getElementById('d41').textContent=sd41;
+        var sd42=localStorage.getItem('actiondate14');
+        document.getElementById('d42').textContent=sd42;
+
+        var sd43=localStorage.getItem('marks15');
+        document.getElementById('d43').textContent=sd43;
+        var sd44=localStorage.getItem('remarks15');
+        document.getElementById('d44').textContent=sd44;
+        var sd45=localStorage.getItem('actiondate15');
+        document.getElementById('d45').textContent=sd45;
+
+        var sd46=localStorage.getItem('marks16');
+        document.getElementById('d46').textContent=sd46;
+        var sd47=localStorage.getItem('remarks16');
+        document.getElementById('d47').textContent=sd47;
+        var sd48=localStorage.getItem('actiondate16');
+        document.getElementById('d48').textContent=sd48;
+
+        var sd49=localStorage.getItem('marks17');
+        document.getElementById('d49').textContent=sd49;
+        var sd50=localStorage.getItem('remarks17');
+        document.getElementById('d50').textContent=sd50;
+        var sd51=localStorage.getItem('actiondate17');
+        document.getElementById('d51').textContent=sd51;
+
+        var sd52=localStorage.getItem('marks18');
+        document.getElementById('d52').textContent=sd52;
+        var sd53=localStorage.getItem('remarks18');
+        document.getElementById('d53').textContent=sd53;
+        var sd54=localStorage.getItem('actiondate18');
+        document.getElementById('d54').textContent=sd54;
+
+        var sd55=localStorage.getItem('marks19');
+        document.getElementById('d55').textContent=sd55;
+        var sd56=localStorage.getItem('remarks19');
+        document.getElementById('d56').textContent=sd56;
+        var sd57=localStorage.getItem('actiondate19');
+        document.getElementById('d57').textContent=sd57;
+
+        var sd58=localStorage.getItem('marks20');
+        document.getElementById('d58').textContent=sd58;
+        var sd59=localStorage.getItem('remarks20');
+        document.getElementById('d59').textContent=sd59;
+        var sd60=localStorage.getItem('actiondate20');
+        document.getElementById('d60').textContent=sd60;
+
+        var sd61=localStorage.getItem('marks21');
+        document.getElementById('d61').textContent=sd61;
+        var sd62=localStorage.getItem('remarks21');
+        document.getElementById('d62').textContent=sd62;
+        var sd63=localStorage.getItem('actiondate21');
+        document.getElementById('d63').textContent=sd63;
+
+        var sd64=localStorage.getItem('marks22');
+        document.getElementById('d64').textContent=sd64;
+        var sd65=localStorage.getItem('remarks22');
+        document.getElementById('d65').textContent=sd65;
+        var sd66=localStorage.getItem('actiondate22');
+        document.getElementById('d66').textContent=sd66;
+
+        var sd67=localStorage.getItem('marks23');
+        document.getElementById('d67').textContent=sd67;
+        var sd68=localStorage.getItem('remarks23');
+        document.getElementById('d68').textContent=sd68;
+        var sd69=localStorage.getItem('actiondate23');
+        document.getElementById('d69').textContent=sd69;
+
+        var sd70=localStorage.getItem('marks24');
+        document.getElementById('d70').textContent=sd70;
+        var sd71=localStorage.getItem('remarks24');
+        document.getElementById('d71').textContent=sd71;
+        var sd72=localStorage.getItem('actiondate24');
+        document.getElementById('d72').textContent=sd72;
+
+        var sd73=localStorage.getItem('marks25');
+        document.getElementById('d73').textContent=sd73;
+        var sd74=localStorage.getItem('remarks25');
+        document.getElementById('d74').textContent=sd74;
+        var sd75=localStorage.getItem('actiondate25');
+        document.getElementById('d75').textContent=sd75;
+
+        var sd76=localStorage.getItem('marks26');
+        document.getElementById('d76').textContent=sd76;
+        var sd77=localStorage.getItem('remarks26');
+        document.getElementById('d77').textContent=sd77;
+        var sd78=localStorage.getItem('actiondate26');
+        document.getElementById('d78').textContent=sd78;
+
+        var sd79=localStorage.getItem('marks27');
+        document.getElementById('d79').textContent=sd79;
+        var sd80=localStorage.getItem('remarks27');
+        document.getElementById('d80').textContent=sd80;
+        var sd81=localStorage.getItem('actiondate27');
+        document.getElementById('d81').textContent=sd81;
+
+        var sd82=localStorage.getItem('marks28');
+        document.getElementById('d82').textContent=sd82;
+        var sd83=localStorage.getItem('remarks28');
+        document.getElementById('d83').textContent=sd83;
+        var sd84=localStorage.getItem('actiondate28');
+        document.getElementById('d84').textContent=sd84;
+
+        var sd85=localStorage.getItem('marks29');
+        document.getElementById('d85').textContent=sd85;
+        var sd86=localStorage.getItem('remarks29');
+        document.getElementById('d86').textContent=sd86;
+        var sd87=localStorage.getItem('actiondate29');
+        document.getElementById('d87').textContent=sd87;
+
+        var sd88=localStorage.getItem('marks30');
+        document.getElementById('d88').textContent=sd88;
+        var sd89=localStorage.getItem('remarks30');
+        document.getElementById('d89').textContent=sd89;
+        var sd90=localStorage.getItem('actiondate30');
+        document.getElementById('d90').textContent=sd90;
+
+        var sd91=localStorage.getItem('marks31');
+        document.getElementById('d91').textContent=sd91;
+        var sd92=localStorage.getItem('remarks31');
+        document.getElementById('d92').textContent=sd92;
+        var sd93=localStorage.getItem('actiondate31');
+        document.getElementById('d93').textContent=sd93;
+
+        var sd94=localStorage.getItem('marks32');
+        document.getElementById('d94').textContent=sd94;
+        var sd95=localStorage.getItem('remarks32');
+        document.getElementById('d95').textContent=sd95;
+        var sd96=localStorage.getItem('actiondate32');
+        document.getElementById('d96').textContent=sd96;
+
+        var sd97=localStorage.getItem('marks33');
+        document.getElementById('d97').textContent=sd97;
+        var sd98=localStorage.getItem('remarks33');
+        document.getElementById('d98').textContent=sd98;
+        var sd99=localStorage.getItem('actiondate33');
+        document.getElementById('d99').textContent=sd99;
+
+        var sd100=localStorage.getItem('marks34');
+        document.getElementById('d100').textContent=sd100;
+        var sd101=localStorage.getItem('remarks34');
+        document.getElementById('d101').textContent=sd101;
+        var sd102=localStorage.getItem('actiondate34');
+        document.getElementById('d102').textContent=sd102;
+
+        var sd103=localStorage.getItem('marks35');
+        document.getElementById('d103').textContent=sd103;
+        var sd104=localStorage.getItem('remarks35');
+        document.getElementById('d104').textContent=sd104;
+        var sd105=localStorage.getItem('actiondate35');
+        document.getElementById('d105').textContent=sd105;
+
+        var sd106=localStorage.getItem('marks36');
+        document.getElementById('d106').textContent=sd106;
+        var sd107=localStorage.getItem('remarks36');
+        document.getElementById('d107').textContent=sd107;
+        var sd108=localStorage.getItem('actiondate36');
+        document.getElementById('d108').textContent=sd108;
+
+        var sd109=localStorage.getItem('marks37');
+        document.getElementById('d109').textContent=sd109;
+        var sd110=localStorage.getItem('remarks37');
+        document.getElementById('d110').textContent=sd110;
+        var sd111=localStorage.getItem('actiondate37');
+        document.getElementById('d111').textContent=sd111;
+
+        var sd112=localStorage.getItem('marks38');
+        document.getElementById('d112').textContent=sd112;
+        var sd113=localStorage.getItem('remarks38');
+        document.getElementById('d113').textContent=sd113;
+        var sd114=localStorage.getItem('actiondate38');
+        document.getElementById('d114').textContent=sd114;
+
+        var sd115=localStorage.getItem('marks39');
+        document.getElementById('d115').textContent=sd115;
+        var sd116=localStorage.getItem('remarks39');
+        document.getElementById('d116').textContent=sd116;
+        var sd117=localStorage.getItem('actiondate39');
+        document.getElementById('d117').textContent=sd117;
+
+        var sd118=localStorage.getItem('marks40');
+        document.getElementById('d118').textContent=sd118;
+        var sd119=localStorage.getItem('remarks40');
+        document.getElementById('d119').textContent=sd119;
+        var sd120=localStorage.getItem('actiondate40');
+        document.getElementById('d120').textContent=sd120;
+
+        function converttocsv(){
+            var csv_data=[];
+            var rows=document.getElementsByTagName('tr');
+            for (var i=0; i<rows.length; i++){
+                var cols=rows[i].querySelectorAll('p,th');
+                var csvrow = [];
+            for (var j=0;j<cols.length;j++){
+                csvrow.push(cols[j].innerHTML);
+            }
+            csv_data.push(csvrow.join(","));
+        }
+        csv_data = csv_data.join('\n');
+        downloadcsv(csv_data);
+    }
+    
+        function downloadcsv(csv_data){
+            csvfile=new Blob([csv_data], {type: "text/csv"});
+            var temp_link = document.createElement('a');
+            var today = new Date();
+            var dd = String(today.getDate());
+            var mm = String(today.getMonth() + 1); 
+            var yyyy = String(today.getFullYear());
+            today = dd + '-' + mm + '-' + yyyy;
+            temp_link.download="self-audit-("+today+").csv";
+            var url = window.URL.createObjectURL(csvfile);
+            temp_link.href=url;
+            temp_link.style.display="none";
+            document.body.appendChild(temp_link);
+            temp_link.click();
+            document.body.removeChild(temp_link)
+        }  
+    </script>
+    </html>
